@@ -24,7 +24,7 @@ Collaborating on projects: I look forward to participating in exciting projects 
 <ul>
   <li>Personal agenda: I developed a personal agenda to manage tasks, as well as add contacts. I used Python and Django as backend and MySQL as database.</il>
   
-  <li>Automatic text summarization: I created an app that allows for efficient automatic text summarization, utilizing an extraction-based approach, for which I employed a technology called SpaCy and implemented it in Django.</li>
+  <li>Automatic text summarization: I created an app that allows for efficient automatic text summarization, utilizing an extraction-based approach, for which I employed a technology called Summy and implemented it in Django.</li>
   
   - https://github.com/An7h0ny1/Summary-text.git
   
