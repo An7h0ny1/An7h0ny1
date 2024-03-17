@@ -28,6 +28,7 @@ Collaborating on projects: I look forward to participating in exciting projects 
   - https://github.com/An7h0ny1/Summary-text.git
   
  <li> Maze game: Based on a tutorial, I developed a maze game and to which I added more functionalities and more styles and for this, I used javascript and css </il>
+  - https://github.com/An7h0ny1/Laberinto.git
 </ul>
 Explore my repositories and join me on this exciting journey of learning and development! 🚀
 
