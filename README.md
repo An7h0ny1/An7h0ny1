@@ -25,9 +25,11 @@ Collaborating on projects: I look forward to participating in exciting projects 
   <li>Personal agenda: I developed a personal agenda to manage tasks, as well as add contacts. I used Python and Django as backend and MySQL as database.</il>
   
   <li>Automatic text summarization: I created an app that allows for efficient automatic text summarization, utilizing an extraction-based approach, for which I employed a technology called SpaCy and implemented it in Django.</li>
+  
   - https://github.com/An7h0ny1/Summary-text.git
   
  <li> Maze game: Based on a tutorial, I developed a maze game and to which I added more functionalities and more styles and for this, I used javascript and css </il>
+ 
   - https://github.com/An7h0ny1/Laberinto.git
 </ul>
 Explore my repositories and join me on this exciting journey of learning and development! 🚀
