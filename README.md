@@ -6,7 +6,7 @@
 Here are some ideas to get you started:
 -->
 - 🔭 I am currently working on developing a personal agenda
-- 🌱 I am currently learning Spring Boot, where I am exploring how to create web applications in a more efficient and scalable way, also Docker.
+- 🌱 I am currently learning Cobol, where I am exploring how to create web applications in a more efficient and scalable way, also Docker.
 - 👯 I am looking to collaborate on open source projects related to python, java and also machine learning
 - 📫 How to contact me: You can contact me by email at antho7294@gmail.com.
 - ⚡ Fun fact: The first computer virus was created in 1983 by Fred Cohen and was called "Virus". It was written as an experiment to demonstrate the potential vulnerability of computer systems.
