@@ -24,7 +24,9 @@ Collaborating on projects: I look forward to participating in exciting projects 
   <li>University Seedbed Project: I actively participated in the comprehensive development of a web application using Laravel for the university seedbed. The platform allowed members to access information, collaborate on projects, and participate in activities. From conception to implementation, I acquired valuable skills throughout the process.</li>
 
   - https://github.com/diegosagreda/App-Semilleros-Udenar.git
+    
   <li>Personal agenda <em>(still in development)</em>: I developed a personal agenda to manage tasks, as well as add contacts. I used Python and Django as backend and MySQL as database.</il>
+  
   - https://github.com/An7h0ny1/Agenda.git
   
   <li>Automatic text summarization: I created an app that allows for efficient automatic text summarization, utilizing an extraction-based approach, for which I employed a technology called Sumy and implemented it in Django.</li>
