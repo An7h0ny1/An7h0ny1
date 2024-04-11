@@ -1,18 +1,27 @@
-<p align="center">
-  <img src="migif.gif" alt="Texto alternativo" width="300" height="300" />
-</p>
-
-## Systems Engineer | Backend Development | Passionate about Learning
 <!--
 **An7h0ny1/An7h0ny1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 -->
-- 🔭 I am currently working on developing a personal agenda
-- 👯 I am looking to collaborate on open source projects related to python, java and also machine learning
-- 📫 How to contact me: You can contact me by email at antho7294@gmail.com.
-- ⚡ Fun fact: The first computer virus was created in 1983 by Fred Cohen and was called "Virus". It was written as an experiment to demonstrate the potential vulnerability of computer systems.
 
+<img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" alt="Matrix SVG" style="max-width: 100%;">
+
+<table>
+  <tr>
+    <td style="vertical-align: top;">
+      <img src="migif.gif" alt="Texto alternativo" width="250" height="250" style="margin-right: 20px;" />
+    </td>
+    <td style="vertical-align: top;">
+      <h2>Systems Engineer | Backend Development | Passionate about Learning</h2>
+      <ul>
+        <li>🔭 I am currently working on developing a personal agenda</li>
+        <li>👯 I am looking to collaborate on open source projects related to Python, Java, and also machine learning</li>
+        <li>📫 How to contact me: You can contact me by email at antho7294@gmail.com.</li>
+        <li>⚡ Fun fact: The first computer virus was created in 1983 by Fred Cohen and was called "Virus". It was written as an experiment to demonstrate the potential vulnerability of computer systems.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## 💼 About Me:
 As a systems engineer, my focus lies in backend development. I love building robust and efficient solutions that enhance application functionality. Although I am a junior in the professional world and have yet to gain work experience, my passion for learning and my determination to contribute to projects constantly drive me forward.
