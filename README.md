@@ -51,6 +51,8 @@ Collaborating on projects: I look forward to participating in exciting projects 
 </ul>
 Explore my repositories and join me on this exciting journey of learning and development! 🚀
 
+<img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" style="max-width:%; display: inline-block, align: center;" data-target="animated-image.originalImage">
+
 
 
 # 💻 Tech Stack:
