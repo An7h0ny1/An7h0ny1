@@ -1,4 +1,7 @@
-### Hi there 👋 I'm Anthony
+<p align="center">
+  <img src="migif.gif" alt="Texto alternativo" width="300" height="300" />
+</p>
+
 ## Systems Engineer | Backend Development | Passionate about Learning
 <!--
 **An7h0ny1/An7h0ny1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
