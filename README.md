@@ -14,7 +14,7 @@ Here are some ideas to get you started:
     <td style="vertical-align: top;">
       <h2>Systems Engineer | Backend Development | Passionate about Learning</h2>
       <ul>
-        <li>🔭 I am currently working on developing a personal agenda</li>
+        <li>🔭 Currently, I am working on the development of a platform for a multi-specialty clinic </li>
         <li>👯 I am looking to collaborate on open source projects related to Python, Java, and also machine learning</li>
         <li>📫 How to contact me: You can contact me by email at antho7294@gmail.com.</li>
         <li>⚡ Fun fact: The first computer virus was created in 1983 by Fred Cohen and was called "Virus". It was written as an experiment to demonstrate the potential vulnerability of computer systems.</li>
@@ -37,17 +37,18 @@ Collaborating on projects: I look forward to participating in exciting projects 
 
   - https://github.com/diegosagreda/App-Semilleros-Udenar.git
     
-  <li>Personal agenda <em>(still in development)</em>: I developed a personal agenda to manage tasks, as well as add contacts. I used Python and Django as backend and MySQL as database.</il>
-  
-  - https://github.com/An7h0ny1/Agenda.git
+  <li>VetCare: I worked with a team to develop Vet Care, a web app for managing patient data, veterinary staff, and medical records in animal hospitals. I contributed to the backend using Spring, ensuring the platform is efficient and easy to customize for different clinics.</il>
+
+   - https://github.com/No-Country-simulation/s17-15-t-java-react
+
+  <li>Essential: Accessible Digital Banking: I collaborated with a team to develop Essencial, a digital banking app designed for older adults and those with limited tech experience. The app provides an intuitive and secure interface for basic banking transactions like money transfers and bill payments, focusing on accessibility and simplicity. </il>
+ 
+  - https://github.com/No-Country-simulation/c19-16-m-java-react
   
   <li>Automatic text summarization: I created an app that allows for efficient automatic text summarization, utilizing an extraction-based approach, for which I employed a technology called Sumy and implemented it in Django.</li>
   
   - https://github.com/An7h0ny1/Summary-text.git
   
- <li> Maze game: Based on a tutorial, I developed a maze game and to which I added more functionalities and more styles and for this, I used javascript and css </il>
- 
-  - https://github.com/An7h0ny1/Laberinto.git
 </ul>
 Explore my repositories and join me on this exciting journey of learning and development! 🚀
 
