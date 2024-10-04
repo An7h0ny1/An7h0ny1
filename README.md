@@ -33,19 +33,19 @@ Collaborating on projects: I look forward to participating in exciting projects 
 
 ## 🌟 Highlighted Projects:
 <ul>
-  <li>University Seedbed Project: I actively participated in the comprehensive development of a web application using Laravel for the university seedbed. The platform allowed members to access information, collaborate on projects, and participate in activities. From conception to implementation, I acquired valuable skills throughout the process.</li>
+  <li><strong>University Seedbed Project:</strong> I actively participated in the comprehensive development of a web application using Laravel for the university seedbed. The platform allowed members to access information, collaborate on projects, and participate in activities. From conception to implementation, I acquired valuable skills throughout the process.</li>
 
   - https://github.com/diegosagreda/App-Semilleros-Udenar.git
     
-  <li>VetCare: I worked with a team to develop Vet Care, a web app for managing patient data, veterinary staff, and medical records in animal hospitals. I contributed to the backend using Spring, ensuring the platform is efficient and easy to customize for different clinics.</il>
+  <li><strong>VetCare:</strong> I worked with a team to develop Vet Care, a web app for managing patient data, veterinary staff, and medical records in animal hospitals. I contributed to the backend using Spring, ensuring the platform is efficient and easy to customize for different clinics.</il>
 
    - https://github.com/No-Country-simulation/s17-15-t-java-react
 
-  <li>Essential: Accessible Digital Banking: I collaborated with a team to develop Essencial, a digital banking app designed for older adults and those with limited tech experience. The app provides an intuitive and secure interface for basic banking transactions like money transfers and bill payments, focusing on accessibility and simplicity. </il>
+  <li><strong>Essential: Accessible Digital Banking:</strong> I collaborated with a team to develop Essencial, a digital banking app designed for older adults and those with limited tech experience. The app provides an intuitive and secure interface for basic banking transactions like money transfers and bill payments, focusing on accessibility and simplicity. </il>
  
   - https://github.com/No-Country-simulation/c19-16-m-java-react
   
-  <li>Automatic text summarization: I created an app that allows for efficient automatic text summarization, utilizing an extraction-based approach, for which I employed a technology called Sumy and implemented it in Django.</li>
+  <li><strong>Automatic text summarization:</strong> I created an app that allows for efficient automatic text summarization, utilizing an extraction-based approach, for which I employed a technology called Sumy and implemented it in Django.</li>
   
   - https://github.com/An7h0ny1/Summary-text.git
   
