@@ -23,6 +23,7 @@ Here are some ideas to get you started:
   </tr>
 </table>
 
+
 ## 💼 About Me:
 As a systems engineer, my focus lies in backend development. I love building robust and efficient solutions that enhance application functionality. Although I am a junior in the professional world and have yet to gain work experience, my passion for learning and my determination to contribute to projects constantly drive me forward.
 
