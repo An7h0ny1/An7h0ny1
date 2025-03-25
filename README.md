@@ -23,6 +23,7 @@ Here are some ideas to get you started:
   </tr>
 </table>
 
+### ![Profile Visits](https://img.shields.io/endpoint?url=https://yasinkalkan.com/api/githubvisitorstats/track/?user=An7h0ny1)
 
 ## 💼 About Me:
 As a systems engineer, my focus lies in backend development. I love building robust and efficient solutions that enhance application functionality. Although I am a junior in the professional world and have yet to gain work experience, my passion for learning and my determination to contribute to projects constantly drive me forward.
@@ -52,7 +53,9 @@ Explore my repositories and join me on this exciting journey of learning and dev
 ![](https://github-contributor-stats.vercel.app/api?username=An7h0ny1&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=An7h0ny1&icon=0&color=3)](https://visitcount.itsvg.in)
+
+
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
