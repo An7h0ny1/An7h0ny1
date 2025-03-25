@@ -33,24 +33,7 @@ Continuous learning: I am always seeking opportunities to expand my knowledge an
 Collaborating on projects: I look forward to participating in exciting projects and contributing to the world of software development.
 
 ## 🌟 Highlighted Projects:
-<ul>
-  <li><strong>University Seedbed Project:</strong> I actively participated in the comprehensive development of a web application using Laravel for the university seedbed. The platform allowed members to access information, collaborate on projects, and participate in activities. From conception to implementation, I acquired valuable skills throughout the process.</li>
-
-  - https://github.com/diegosagreda/App-Semilleros-Udenar.git
-    
-  <li><strong>VetCare:</strong> I worked with a team to develop Vet Care, a web app for managing patient data, veterinary staff, and medical records in animal hospitals. I contributed to the backend using Spring, ensuring the platform is efficient and easy to customize for different clinics.</il>
-
-   - https://github.com/No-Country-simulation/s17-15-t-java-react
-
-  <li><strong>Essential: Accessible Digital Banking:</strong> I collaborated with a team to develop Essencial, a digital banking app designed for older adults and those with limited tech experience. The app provides an intuitive and secure interface for basic banking transactions like money transfers and bill payments, focusing on accessibility and simplicity. </il>
- 
-  - https://github.com/No-Country-simulation/c19-16-m-java-react
-  
-  <li><strong>Automatic text summarization:</strong> I created an app that allows for efficient automatic text summarization, utilizing an extraction-based approach, for which I employed a technology called Sumy and implemented it in Django.</li>
-  
-  - https://github.com/An7h0ny1/Summary-text.git
-  
-</ul>
+<ul> <li><strong>Inventory Management SaaS:</strong> Designed a multi-tenant system with Spring Boot and PostgreSQL, enabling independent data management for each client. Implemented role-based authentication and optimized storage with JSONB.</li> - (https://github.com/No-Country-simulation/s21-20-t-webapp) <li><strong>Fintech Platform (Iupi):</strong> Developed a REST API for investment management, improving SQL query performance. Integrated a Machine Learning model (Python/Django) for personalized recommendations.</li> - (https://github.com/No-Country-simulation/h4-04-fintech) <li><strong>Medical Appointment System:</strong> Implemented schedule validation with JPQL and the Strategy pattern, simplifying the code. Improved communication with automated email notifications, achieving a 95% timely confirmation rate.</li> - (https://github.com/No-Country-simulation/s18-22-t-java-react)
 Explore my repositories and join me on this exciting journey of learning and development! 🚀
 
 <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" style="max-width:%; display: inline-block, align: center;" data-target="animated-image.originalImage">
