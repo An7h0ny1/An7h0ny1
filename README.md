@@ -14,7 +14,7 @@ Here are some ideas to get you started:
     <td style="vertical-align: top;">
       <h2>Systems Engineer | Backend Development | Passionate about Learning</h2>
       <ul>
-        <li>🔭 Currently, I am working on the development of a platform for a multi-specialty clinic </li>
+        <li>🔭 Currently, I am working on the development of a Ecommerce </li>
         <li>👯 I am looking to collaborate on open source projects related to Python, Java, and also machine learning</li>
         <li>📫 How to contact me: You can contact me by email at antho7294@gmail.com.</li>
         <li>⚡ Fun fact: The first computer virus was created in 1983 by Fred Cohen and was called "Virus". It was written as an experiment to demonstrate the potential vulnerability of computer systems.</li>
