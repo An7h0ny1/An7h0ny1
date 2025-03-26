@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 ### ![Profile Visits](https://img.shields.io/endpoint?url=https://yasinkalkan.com/api/githubvisitorstats/track/?user=An7h0ny1)
 
 ## 💼 About Me:
-As a systems engineer, my focus lies in backend development. I love building robust and efficient solutions that enhance application functionality. Although I am a junior in the professional world and have yet to gain work experience, my passion for learning and my determination to contribute to projects constantly drive me forward.
+Systems Engineer specialized in backend development, with experience in scalable architectures, API integration, and database optimization. Results-oriented with proven skills in collaborative work under agile methodologies.
 
 ## 🚀 What motivates me?
 Continuous learning: I am always seeking opportunities to expand my knowledge and skills.
