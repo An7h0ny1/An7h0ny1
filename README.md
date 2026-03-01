@@ -19,8 +19,8 @@
 <br/>
 
 <div align="center">
-  <a href="https://linkedin.com/in/anthony-se">
-    <img src="https://img.shields.io/badge/LinkedIn-22C55E?style=for-the-badge&logo=linkedin&logoColor=000000" />
+   <a href="https://linkedin.com/in/anthony-se">
+    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin-white&logoColor=22C55E" />
   </a>
   <a href="mailto:antho7294@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=22C55E" />
