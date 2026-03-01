@@ -18,6 +18,14 @@
 
 <br/>
 
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=22C55E&labelColor=000000)](https://linkedin.com/in/anthony-se)
+[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=22C55E)](mailto:antho7294@gmail.com)
+
+</div>
+<br/>
+
 <!-- SYSTEM INIT LOG -->
 ```bash
 root@an7h0ny1:~# ./init_system.sh
@@ -104,8 +112,8 @@ root@an7h0ny1:~# ./init_system.sh
 ## `root@an7h0ny1:~# ./sys_monitor.sh --metrics=github --theme=matrix`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=An7h0ny1&theme=chartreuse-dark&show_icons=true&hide_border=true&bg_color=000000&title_color=22C55E&icon_color=22C55E&text_color=22C55E&ring_color=22C55E" height="195px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=An7h0ny1&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=22C55E&text_color=22C55E" height="195px" />
+  <img src="https://github-readme-stats-ruddy-six-82.vercel.app/api?username=An7h0ny1&theme=chartreuse-dark&show_icons=true&hide_border=true&bg_color=000000&title_color=22C55E&icon_color=22C55E&text_color=22C55E&ring_color=22C55E" height="195px" />
+  <img src="https://github-readme-stats-ruddy-six-82.vercel.app/api/top-langs/?username=An7h0ny1&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=22C55E&text_color=22C55E" height="195px" />
 </div>
 
 <div align="center">
@@ -146,13 +154,6 @@ tcp        0      0 127.0.0.1:587       GMAIL_NODE       ESTABLISHED  [SECURE_TU
 tcp        0      0 127.0.0.1:22        GITHUB_NODE      ESTABLISHED  [SSH_AUTH]
 ```
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=22C55E)](https://linkedin.com/in/anthony-se)
-[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=22C55E)](mailto:antho7294@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=22C55E)](https://github.com/An7h0ny1)
-
-</div>
 
 <br/>
 
