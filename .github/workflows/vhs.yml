@@ -12,19 +12,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          # Hacemos symlink para que vhs lo encuentre donde lo busca
+          sudo ln -sf $(which ffmpeg) /usr/local/bin/ffmpeg
+
       - name: Setup VHS - About Me
-        uses: charmbracelet/vhs-action@v2
+        uses: charmbracelet/vhs-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: '.vhs/about_me.tape'
-          install-ffmpeg: false  
 
       - name: Setup VHS - Mission Log
-        uses: charmbracelet/vhs-action@v2
+        uses: charmbracelet/vhs-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: '.vhs/mission_log.tape'
-          install-ffmpeg: false
 
       - name: Commit Action generated GIFs
         uses: stefanzweifel/git-auto-commit-action@v5
