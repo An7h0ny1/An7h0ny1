@@ -19,7 +19,16 @@ jobs:
 
           sudo curl -L https://github.com/tsl0922/ttyd/releases/download/1.7.2/ttyd.x86_64 -o /usr/local/bin/ttyd
           sudo chmod +x /usr/local/bin/ttyd
+        
+      - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
 
+      - name: Install VHS
+        run: |
+          go install github.com/charmbracelet/vhs@latest
+          echo "$HOME/go/bin" >> $GITHUB_PATH
 
       - name: Prepare data files
         run: |
@@ -60,22 +69,6 @@ jobs:
                - Orquestación automatizada de contenedores
           ────────────────────────────────────────────────────────────────────────
           EOF
-
-      - name: Generate About Me GIF
-        run: vhs .vhs/about_me.tape
-
-      - name: Generate Mission Log GIF
-        run: vhs .vhs/mission_log.tape
-        
-      - name: Install Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.21'
-
-      - name: Install VHS
-        run: |
-          go install github.com/charmbracelet/vhs@latest
-          echo "$HOME/go/bin" >> $GITHUB_PATH
 
       - name: Generate About Me GIF
         run: vhs .vhs/about_me.tape
