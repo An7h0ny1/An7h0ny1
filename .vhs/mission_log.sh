@@ -1,50 +1,50 @@
 #!/bin/bash
 
-# ANSI Colors for True Color support matching CSS
-GREEN="\e[38;2;34;197;94m"
-GREEN_DIM="\e[38;2;21;128;61m"
-CYAN="\e[38;2;34;211;238m"
-YELLOW="\e[38;2;250;204;21m"
-RED="\e[38;2;239;68;68m"
-WHITE="\e[38;2;255;255;255m"
-RESET="\e[0m"
+GREEN="\033[38;2;34;197;94m"
+GREEN_DIM="\033[38;2;21;128;61m"
+CYAN="\033[38;2;34;211;238m"
+YELLOW="\033[38;2;250;204;21m"
+RED="\033[38;2;239;68;68m"
+WHITE="\033[38;2;255;255;255m"
+BOLD="\033[1m"
+RESET="\033[0m"
 
 function typeout() {
     local text="$1"
     local delay="$2"
     for (( i=0; i<${#text}; i++ )); do
-        echo -en "${text:$i:1}"
+        printf "%s" "${text:$i:1}"
         sleep $delay
     done
-    echo -e ""
+    printf "\n"
 }
 
 function progress_bar() {
     local label="$1"
-    echo -en "${GREEN_DIM}${label} ["
+    printf "${GREEN_DIM}${label} ["
     for i in {1..40}; do
-        echo -en "${GREEN}#"
+        printf "${GREEN}#"
         sleep 0.02
     done
-    echo -e "${GREEN_DIM}] 100%${RESET}"
+    printf "${GREEN_DIM}] 100%%${RESET}\n"
 }
 
 sleep 0.5
-typeout "> ${CYAN}[SYS]${RESET} ${CYAN}Accessing remote database nodes...${RESET}" 0.03
+printf "> ${CYAN}[SYS]${RESET} ${CYAN}Accessing remote database nodes...${RESET}\n"
 sleep 0.4
-typeout "> ${YELLOW}[⚠]${RESET} ${YELLOW}Decrypting mission history archives...${RESET}" 0.04
+printf "> ${YELLOW}[⚠]${RESET} ${YELLOW}Decrypting mission history archives...${RESET}\n"
 sleep 0.5
-typeout "> ${CYAN}[SYS]${RESET} ${CYAN}Verifying authorization...${RESET}" 0.02
+printf "> ${CYAN}[SYS]${RESET} ${CYAN}Verifying authorization...${RESET}\n"
 
 progress_bar "KEY "
 sleep 0.3
-echo -e "> ${GREEN}[OK] Clearance granted. User: \e[1mAn7h0ny1\e[0m"
+printf "> ${GREEN}[OK] Clearance granted. User: ${BOLD}An7h0ny1${RESET}\n"
 sleep 0.4
 
-typeout "> ${CYAN}[SYS]${RESET} ${CYAN}Tailing logs from /var/log/mission_history.log ...${RESET}" 0.02
+printf "> ${CYAN}[SYS]${RESET} ${CYAN}Tailing logs from /var/log/mission_history.log ...${RESET}\n"
 sleep 0.2
 
-echo -e "\n${GREEN_DIM}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}\n"
+printf "\n${GREEN_DIM}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}\n\n"
 
 function log_mission() {
     local id="$1"
@@ -55,23 +55,23 @@ function log_mission() {
     local r2="$6"
     local r3="$7"
 
-    echo -e "> ${GREEN_DIM}ID_ACCESO${RESET} : ${CYAN}[${id}]${RESET}"
+    printf "> ${GREEN_DIM}ID_ACCESO${RESET} : ${CYAN}[${id}]${RESET}\n"
     sleep 0.2
-    echo -e "> ${GREEN_DIM}OBJETIVO${RESET}  : ${WHITE}${obj}${RESET}"
+    printf "> ${GREEN_DIM}OBJETIVO${RESET}  : ${WHITE}${obj}${RESET}\n"
     sleep 0.2
-    echo -e "> ${GREEN_DIM}ESTADO${RESET}    : ${GREEN}[SUCCESS] OPERACION COMPLETADA${RESET}"
+    printf "> ${GREEN_DIM}ESTADO${RESET}    : ${GREEN}[SUCCESS] OPERACION COMPLETADA${RESET}\n"
     sleep 0.2
-    echo -e "> ${GREEN_DIM}STACK${RESET}     : ${CYAN}${stack}${RESET}"
+    printf "> ${GREEN_DIM}STACK${RESET}     : ${CYAN}${stack}${RESET}\n"
     sleep 0.2
-    echo -e "> ${GREEN_DIM}RESULTADOS${RESET}:"
+    printf "> ${GREEN_DIM}RESULTADOS${RESET}:\n"
     sleep 0.1
-    echo -e "      ${GREEN_DIM}-${RESET} ${GREEN}${r1}${RESET}"
+    printf "      ${GREEN_DIM}-${RESET} ${GREEN}${r1}${RESET}\n"
     sleep 0.1
-    echo -e "      ${GREEN_DIM}-${RESET} ${GREEN}${r2}${RESET}"
+    printf "      ${GREEN_DIM}-${RESET} ${GREEN}${r2}${RESET}\n"
     sleep 0.1
-    echo -e "      ${GREEN_DIM}-${RESET} ${GREEN}${r3}${RESET}"
+    printf "      ${GREEN_DIM}-${RESET} ${GREEN}${r3}${RESET}\n"
     sleep 0.4
-    echo -e "${GREEN_DIM}-------------------------------------------------------------------------${RESET}"
+    printf "${GREEN_DIM}-------------------------------------------------------------------------${RESET}\n"
 }
 
 sleep 0.3
@@ -84,7 +84,7 @@ sleep 0.4
 log_mission "MISIÓN #03" "VETCARE — SECTOR SALUD" "SUCCESS" "Spring Boot • Docker • CI/CD • GitHub Actions" "Digitalización completa de flujos de historias clínicas veterinarias" "Refactorización de Pipeline CI/CD logrando reducción del 40% en deploy" "Orquestación automatizada de contenedores en entornos de producción"
 
 sleep 0.5
-echo -e "> ${GREEN}[OK] Tail operation completed.${RESET}"
+printf "> ${GREEN}[OK] Tail operation completed.${RESET}\n"
 sleep 0.4
-echo -e "> ${CYAN}[SYS] Session encrypted & idle...${RESET}"
+printf "> ${CYAN}[SYS] Session encrypted & idle...${RESET}\n"
 sleep 1
