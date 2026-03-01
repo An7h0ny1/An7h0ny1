@@ -12,14 +12,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install FFmpeg and ttyd
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg ttyd
 
+      - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+
       - name: Install VHS
         run: |
-          sudo snap install vhs
+          go install github.com/charmbracelet/vhs@latest
+          echo "$HOME/go/bin" >> $GITHUB_PATH
 
       - name: Generate About Me GIF
         run: vhs .vhs/about_me.tape
