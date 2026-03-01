@@ -15,7 +15,10 @@ jobs:
       - name: Install FFmpeg and ttyd
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg ttyd
+          sudo apt-get install -y ffmpeg
+
+          sudo curl -L https://github.com/tsl0922/ttyd/releases/download/1.7.2/ttyd.x86_64 -o /usr/local/bin/ttyd
+          sudo chmod +x /usr/local/bin/ttyd
 
       - name: Install Go
         uses: actions/setup-go@v5
