@@ -7,7 +7,7 @@ Set FontFamily "JetBrains Mono"
 Set Width 1200
 Set Height 950
 Set Padding 40
-Set Theme { "name": "matrix", "black": "#000000", "red": "#22C55E", "green": "#22C55E", "yellow": "#22C55E", "blue": "#22C55E", "purple": "#22C55E", "cyan": "#22C55E", "white": "#22C55E", "brightBlack": "#003300", "brightRed": "#22C55E", "brightGreen": "#22C55E", "brightYellow": "#22C55E", "brightBlue": "#22C55E", "brightPurple": "#22C55E", "brightCyan": "#22C55E", "brightWhite": "#22C55E", "background": "#000000", "foreground": "#22C55E", "cursor": "#22C55E", "selectionBackground": "#003300" }
+Set Theme { "name": "matrix_colors", "black": "#000000", "red": "#ef4444", "green": "#22C55E", "yellow": "#facc15", "blue": "#22C55E", "purple": "#22C55E", "cyan": "#22d3ee", "white": "#ffffff", "brightBlack": "#003300", "brightRed": "#ef4444", "brightGreen": "#22C55E", "brightYellow": "#facc15", "brightBlue": "#22C55E", "brightPurple": "#22C55E", "brightCyan": "#22d3ee", "brightWhite": "#ffffff", "background": "#000000", "foreground": "#22C55E", "cursor": "#22C55E", "selectionBackground": "#003300" }
 
 Hide
 Type "chmod +x .vhs/mission_log.sh"
@@ -20,4 +20,4 @@ Type "./.vhs/mission_log.sh"
 Sleep 200ms
 Enter
 
-Sleep 8s
+Sleep 40s
