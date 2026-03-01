@@ -36,28 +36,16 @@ root@an7h0ny1:~# ./init_system.sh
 
 <br/>
 
-<!-- ABOUT ME JSON -->
+<!-- ABOUT ME TERMINAL ANIMATION -->
 ## `root@an7h0ny1:~# cat /var/www/about_me.config.json`
 
-```json
-{
-  "usuario": {
-    "nombre": "Anthony Danilo Parra Muñoz",
-    "alias": "An7h0ny1",
-    "rol": "Ingeniero de Sistemas | Especialista Backend",
-    "ubicacion": "Nariño, Colombia 🇨🇴",
-    "contacto": "antho7294@gmail.com"
-  },
-  "stack_principal": ["Java", "Spring Boot", "NestJS", "TypeScript", "Python"],
-  "habilidades_clave": [
-    "Arquitecturas Multi-tenant", 
-    "Web Scraping de Alto Rendimiento", 
-    "CI/CD Pipelines", 
-    "Diseño de APIs REST escalables"
-  ],
-  "estado_actual": "⚡ Orquestando procesos de alta concurrencia..."
-}
-```
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/about_me.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/about_me.gif" />
+    <img alt="System Profile Run" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/about_me.gif" width="100%" />
+  </picture> 
+</div>
 
 <br/>
 
@@ -99,40 +87,16 @@ root@an7h0ny1:~# ./init_system.sh
 
 <br/>
 
-<!-- MISSION LOG -->
+<!-- MISSION LOG TERMINAL ANIMATION -->
 ## `root@an7h0ny1:~# tail -f /var/log/mission_history.log`
 
-```yml
-[TIMESTAMP: RECUPERANDO REGISTROS...]
-────────────────────────────────────────────────────────────────────────
- > ID_ACCESO : [MISIÓN #01]
- > OBJETIVO  : IUPI — FINTECH STARTUP
- > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
- > STACK     : NestJS • PostgreSQL • WebSockets • Web Scraping
- > RESULTADOS:
-     - Implantación de motor de scraping de activos financieros en TIER-1 (tiempo real)
-     - Streaming de datos financieros vía WebSockets (latencia sub-100ms)
-     - Optimización agresiva de queries en base de datos para alta concurrencia
-────────────────────────────────────────────────────────────────────────
- > ID_ACCESO : [MISIÓN #02]
- > OBJETIVO  : NO COUNTRY — SAAS DE INVENTARIOS
- > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
- > STACK     : Spring Boot • PostgreSQL JSONB • Arquitectura Multi-tenant
- > RESULTADOS:
-     - Despliegue de arquitectura multi-tenant aislada y altamente escalable
-     - Integración de JSONB logrando soporte a schemas dinámicos
-     - API REST robusta garantizando [SECURITY_LEVEL: HIGH] por tenant
-────────────────────────────────────────────────────────────────────────
- > ID_ACCESO : [MISIÓN #03]
- > OBJETIVO  : VETCARE — SECTOR SALUD
- > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
- > STACK     : Spring Boot • Docker • CI/CD • GitHub Actions
- > RESULTADOS:
-     - Digitalización completa de flujos de historias clínicas veterinarias
-     - Refactorización de Pipeline CI/CD logrando reducción del 40% en deploy
-     - Orquestación automatizada de contenedores en entornos de producción
-────────────────────────────────────────────────────────────────────────
-```
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission_log.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission_log.gif" />
+    <img alt="Mission Logs Run" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission_log.gif" width="100%" />
+  </picture> 
+</div>
 
 <br/>
 
