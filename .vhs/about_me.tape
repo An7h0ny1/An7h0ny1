@@ -2,66 +2,22 @@ Output dist/about_me.gif
 
 Set Shell bash
 Set WindowBar Rings
-Set FontSize 22
+Set FontSize 26
 Set FontFamily "JetBrains Mono"
-Set Width 800
-Set Height 450
-Set TypingSpeed 80ms
+Set Width 1200
+Set Height 850
+Set Padding 40
 Set Theme { "name": "matrix", "black": "#000000", "red": "#22C55E", "green": "#22C55E", "yellow": "#22C55E", "blue": "#22C55E", "purple": "#22C55E", "cyan": "#22C55E", "white": "#22C55E", "brightBlack": "#003300", "brightRed": "#22C55E", "brightGreen": "#22C55E", "brightYellow": "#22C55E", "brightBlue": "#22C55E", "brightPurple": "#22C55E", "brightCyan": "#22C55E", "brightWhite": "#22C55E", "background": "#000000", "foreground": "#22C55E", "cursor": "#22C55E", "selectionBackground": "#003300" }
 
 Hide
-Type "sudo mkdir -p /var/www/ && sudo chown $USER:$USER /var/www/"
-Enter
-Type "cat << 'EOF' > /var/www/about_me.config.json"
-Enter
-Type '{'
-Enter
-Type '  "usuario": {'
-Enter
-Type '    "nombre": "Anthony Danilo Parra",'
-Enter
-Type '    "alias": "An7h0ny1",'
-Enter
-Type '    "rol": "Ingeniero de Sistemas | Especialista Backend",'
-Enter
-Type '    "ubicacion": "Narino, Colombia",'
-Enter
-Type '    "contacto": "antho7294@gmail.com"'
-Enter
-Type '  },'
-Enter
-Type '  "stack_principal": ["Java", "Spring Boot", "NestJS", "TypeScript", "Python"],'
-Enter
-Type '  "habilidades_clave": ['
-Enter
-Type '    "Arquitecturas Multi-tenant",'
-Enter
-Type '    "Web Scraping de Alto Rendimiento",'
-Enter
-Type '    "CI/CD Pipelines",'
-Enter
-Type '    "Diseno de APIs REST escalables"'
-Enter
-Type '  ],'
-Enter
-Type '  "estado_actual": "Orquestando procesos de alta concurrencia..."'
-Enter
-Type '}'
-Enter
-Type "EOF"
-Enter
-Type "alias run_cat='jq -C . /var/www/about_me.config.json | pv -qL 800'"
+Type "chmod +x .vhs/about_me.sh"
 Enter
 Ctrl+L
 Show
 
-Type "cat /var/www/about_me.config.json | jq"
 Sleep 500ms
-# Do not actually run the real cat command
-Hide
-Ctrl+U
-Type "run_cat"
+Type "./.vhs/about_me.sh"
+Sleep 200ms
 Enter
-Show
 
-Sleep 4s
+Sleep 5s
