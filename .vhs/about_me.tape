@@ -7,7 +7,7 @@ Set FontFamily "JetBrains Mono"
 Set Width 800
 Set Height 450
 Set TypingSpeed 60ms
-Set Theme "Modus Vivendi"
+Set Theme { "name": "matrix", "black": "#000000", "red": "#22C55E", "green": "#22C55E", "yellow": "#22C55E", "blue": "#22C55E", "purple": "#22C55E", "cyan": "#22C55E", "white": "#22C55E", "brightBlack": "#003300", "brightRed": "#22C55E", "brightGreen": "#22C55E", "brightYellow": "#22C55E", "brightBlue": "#22C55E", "brightPurple": "#22C55E", "brightCyan": "#22C55E", "brightWhite": "#22C55E", "background": "#000000", "foreground": "#22C55E", "cursor": "#22C55E", "selectionBackground": "#003300" }
 
 Type "cat /var/www/about_me.config.json"
 Sleep 500ms
