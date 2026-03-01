@@ -5,7 +5,7 @@
 
 <!-- TYPING SVG -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=1000&color=22C55E&center=true&vCenter=true&width=800&lines=%5BROOT%40SYSTEM%5D+%24+who am i;%3E+Anthony+Danilo+Parra;%5BROOT%40SYSTEM%5D+%24+cat+role.txt;%3E+Backend+Architect+%7C+Spring+Boot+%26+NestJS;%5BROOT%40SYSTEM%5D+%24+ping+localhost;%3E+Nari%C3%B1o%2C+Colombia+%F0%9F%87%A8%F0%9F%87%B4;%5BROOT%40SYSTEM%5D+%24+status+--check;%3E+ONLINE+%E2%96%B6+Construyendo+sistemas+escalables..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=1000&color=22C55E&center=true&vCenter=true&width=800&lines=%5BROOT%40SYSTEM%5D+%24+who+am+i;%3E+Anthony+Danilo+Parra;%5BROOT%40SYSTEM%5D+%24+cat+role.txt;%3E+Backend+Architect+%7C+Spring+Boot+%26+NestJS;%5BROOT%40SYSTEM%5D+%24+ping+localhost;%3E+Nari%C3%B1o%2C+Colombia+%F0%9F%87%A8%F0%9F%87%B4;%5BROOT%40SYSTEM%5D+%24+status+--check;%3E+ONLINE+%E2%96%B6+Construyendo+sistemas+escalables..." alt="Typing SVG" />
 </div>
 
 <br/>
