@@ -32,43 +32,46 @@ jobs:
 
       - name: Prepare data files
         run: |
-          sudo mkdir -p /var/www
-          sudo tee /var/www/about_me.config.json > /dev/null << 'EOF'
-          {"usuario":{"nombre":"Anthony Danilo Parra Muñoz","alias":"An7h0ny1","rol":"Ingeniero de Sistemas | Especialista Backend","ubicacion":"Nariño, Colombia 🇨🇴","contacto":"antho7294@gmail.com"},"stack_principal":["Java","Spring Boot","NestJS","TypeScript","Python"],"habilidades_clave":["Arquitecturas Multi-tenant","Web Scraping de Alto Rendimiento","CI/CD Pipelines","Diseño de APIs REST escalables"],"estado_actual":"⚡ Orquestando procesos de alta concurrencia..."}
-          EOF
+          sudo mkdir -p /var/www /var/log
 
-          sudo mkdir -p /var/log
-          sudo tee /var/log/mission_history.log > /dev/null << 'EOF'
+          echo '{"usuario":{"nombre":"Anthony Danilo Parra Munoz","alias":"An7h0ny1","rol":"Ingeniero de Sistemas | Especialista Backend","ubicacion":"Narino, Colombia","contacto":"antho7294@gmail.com"},"stack_principal":["Java","Spring Boot","NestJS","TypeScript","Python"],"habilidades_clave":["Arquitecturas Multi-tenant","Web Scraping de Alto Rendimiento","CI/CD Pipelines","Diseno de APIs REST escalables"],"estado_actual":"Orquestando procesos de alta concurrencia..."}' | sudo tee /var/www/about_me.config.json
+
+          sudo tee /var/log/mission_history.log > /dev/null << 'LOGEOF'
           [TIMESTAMP: RECUPERANDO REGISTROS...]
-          ────────────────────────────────────────────────────────────────────────
-           > ID_ACCESO : [MISIÓN #01]
-           > OBJETIVO  : IUPI — FINTECH STARTUP
-           > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
-           > STACK     : NestJS • PostgreSQL • WebSockets • Web Scraping
-           > RESULTADOS:
-               - Motor de scraping de activos financieros en tiempo real
-               - Streaming de datos vía WebSockets (latencia sub-100ms)
-               - Optimización de queries para alta concurrencia
-          ────────────────────────────────────────────────────────────────────────
-           > ID_ACCESO : [MISIÓN #02]
-           > OBJETIVO  : NO COUNTRY — SAAS DE INVENTARIOS
-           > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
-           > STACK     : Spring Boot • PostgreSQL JSONB • Arquitectura Multi-tenant
-           > RESULTADOS:
-               - Arquitectura multi-tenant aislada y escalable
-               - Integración JSONB con schemas dinámicos
-               - API REST con [SECURITY_LEVEL: HIGH] por tenant
-          ────────────────────────────────────────────────────────────────────────
-           > ID_ACCESO : [MISIÓN #03]
-           > OBJETIVO  : VETCARE — SECTOR SALUD
-           > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
-           > STACK     : Spring Boot • Docker • CI/CD • GitHub Actions
-           > RESULTADOS:
-               - Digitalización de historias clínicas veterinarias
-               - Reducción del 40% en tiempo de deploy
-               - Orquestación automatizada de contenedores
-          ────────────────────────────────────────────────────────────────────────
-          EOF
+          --------------------------------------------------------------------
+          > ID_ACCESO : [MISION #01]
+          > OBJETIVO  : IUPI - FINTECH STARTUP
+          > ESTADO    : [SUCCESS] OPERACION COMPLETADA
+          > STACK     : NestJS - PostgreSQL - WebSockets - Web Scraping
+          > RESULTADOS:
+              - Motor de scraping de activos financieros en tiempo real
+              - Streaming de datos via WebSockets (latencia sub-100ms)
+              - Optimizacion de queries para alta concurrencia
+          --------------------------------------------------------------------
+          > ID_ACCESO : [MISION #02]
+          > OBJETIVO  : NO COUNTRY - SAAS DE INVENTARIOS
+          > ESTADO    : [SUCCESS] OPERACION COMPLETADA
+          > STACK     : Spring Boot - PostgreSQL JSONB - Multi-tenant
+          > RESULTADOS:
+              - Arquitectura multi-tenant aislada y escalable
+              - Integracion JSONB con schemas dinamicos
+              - API REST con [SECURITY_LEVEL: HIGH] por tenant
+          --------------------------------------------------------------------
+          > ID_ACCESO : [MISION #03]
+          > OBJETIVO  : VETCARE - SECTOR SALUD
+          > ESTADO    : [SUCCESS] OPERACION COMPLETADA
+          > STACK     : Spring Boot - Docker - CI/CD - GitHub Actions
+          > RESULTADOS:
+              - Digitalizacion de historias clinicas veterinarias
+              - Reduccion del 40% en tiempo de deploy
+              - Orquestacion automatizada de contenedores
+          --------------------------------------------------------------------
+          LOGEOF
+
+      - name: Verify files exist
+        run: |
+          echo "=== about_me.config.json ===" && cat /var/www/about_me.config.json
+          echo "=== mission_history.log ===" && cat /var/log/mission_history.log
 
       - name: Generate About Me GIF
         run: vhs .vhs/about_me.tape
