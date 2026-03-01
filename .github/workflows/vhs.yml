@@ -20,6 +20,53 @@ jobs:
           sudo curl -L https://github.com/tsl0922/ttyd/releases/download/1.7.2/ttyd.x86_64 -o /usr/local/bin/ttyd
           sudo chmod +x /usr/local/bin/ttyd
 
+
+      - name: Prepare data files
+        run: |
+          sudo mkdir -p /var/www
+          sudo tee /var/www/about_me.config.json > /dev/null << 'EOF'
+          {"usuario":{"nombre":"Anthony Danilo Parra Muñoz","alias":"An7h0ny1","rol":"Ingeniero de Sistemas | Especialista Backend","ubicacion":"Nariño, Colombia 🇨🇴","contacto":"antho7294@gmail.com"},"stack_principal":["Java","Spring Boot","NestJS","TypeScript","Python"],"habilidades_clave":["Arquitecturas Multi-tenant","Web Scraping de Alto Rendimiento","CI/CD Pipelines","Diseño de APIs REST escalables"],"estado_actual":"⚡ Orquestando procesos de alta concurrencia..."}
+          EOF
+
+          sudo mkdir -p /var/log
+          sudo tee /var/log/mission_history.log > /dev/null << 'EOF'
+          [TIMESTAMP: RECUPERANDO REGISTROS...]
+          ────────────────────────────────────────────────────────────────────────
+           > ID_ACCESO : [MISIÓN #01]
+           > OBJETIVO  : IUPI — FINTECH STARTUP
+           > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
+           > STACK     : NestJS • PostgreSQL • WebSockets • Web Scraping
+           > RESULTADOS:
+               - Motor de scraping de activos financieros en tiempo real
+               - Streaming de datos vía WebSockets (latencia sub-100ms)
+               - Optimización de queries para alta concurrencia
+          ────────────────────────────────────────────────────────────────────────
+           > ID_ACCESO : [MISIÓN #02]
+           > OBJETIVO  : NO COUNTRY — SAAS DE INVENTARIOS
+           > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
+           > STACK     : Spring Boot • PostgreSQL JSONB • Arquitectura Multi-tenant
+           > RESULTADOS:
+               - Arquitectura multi-tenant aislada y escalable
+               - Integración JSONB con schemas dinámicos
+               - API REST con [SECURITY_LEVEL: HIGH] por tenant
+          ────────────────────────────────────────────────────────────────────────
+           > ID_ACCESO : [MISIÓN #03]
+           > OBJETIVO  : VETCARE — SECTOR SALUD
+           > ESTADO    : [SUCCESS] OPERACIÓN COMPLETADA
+           > STACK     : Spring Boot • Docker • CI/CD • GitHub Actions
+           > RESULTADOS:
+               - Digitalización de historias clínicas veterinarias
+               - Reducción del 40% en tiempo de deploy
+               - Orquestación automatizada de contenedores
+          ────────────────────────────────────────────────────────────────────────
+          EOF
+
+      - name: Generate About Me GIF
+        run: vhs .vhs/about_me.tape
+
+      - name: Generate Mission Log GIF
+        run: vhs .vhs/mission_log.tape
+        
       - name: Install Go
         uses: actions/setup-go@v5
         with:
