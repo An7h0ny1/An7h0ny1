@@ -92,8 +92,8 @@ root@an7h0ny1:~# ./init_system.sh
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission_log.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission_log.gif" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission.gif" />
     <img alt="Mission Logs Run" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission_log.gif" width="100%" />
   </picture> 
 </div>
