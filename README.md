@@ -1,4 +1,4 @@
-<!-- MATRIX RAIN HEADER -->
+<!-- HEADER -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=venom&height=250&text=AN7H0NY%20PARRA&fontSize=70&color=0:000000,100:001a00&fontColor=22C55E&stroke=22C55E&strokeWidth=2&animation=fadeIn" width="100%"/>
 </div>
@@ -10,7 +10,7 @@
 
 <br/>
 
-<!-- PROFILE VIEWS BADGE -->
+<!-- PROFILE VIEWS -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=An7h0ny1&label=SYS.VIEWS&color=22C55E&style=for-the-badge&labelColor=000000" />
   <img src="https://img.shields.io/github/followers/An7h0ny1?label=NODES.CONNECTED&style=for-the-badge&color=22C55E&labelColor=000000" />
@@ -18,59 +18,48 @@
 
 <br/>
 
+<!-- BOTONES -->
 <div align="center">
-   <a href="https://linkedin.com/in/anthony-se">
+  <a href="https://anthony-parra-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Portafolio-000000?style=for-the-badge&logoColor=22C55E" />
+  </a>
+  <a href="https://anthony-parra-portfolio.vercel.app/cv.pdf">
+    <img src="https://img.shields.io/badge/📄_CV-000000?style=for-the-badge&logoColor=22C55E" />
+  </a>
+  <a href="https://linkedin.com/in/anthony-se">
     <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin-white&logoColor=22C55E" />
   </a>
   <a href="mailto:antho7294@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=22C55E" />
   </a>
-  <a href="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/main/CV_Anthony_Parra.pdf">
-    <img src="https://img.shields.io/badge/CV-000000?style=for-the-badge&logo=readme&logoColor=22C55E" />
-  </a>
-</div>
-<br/>
-
-<!-- SYSTEM INIT LOG -->
-```bash
-root@an7h0ny1:~# ./init_system.sh
-
-╔══════════════════════════════════════════════════════════╗
-║              SISTEMA OPERATIVO: AN7H0NY1 v3.0            ║
-╚══════════════════════════════════════════════════════════╝
-
-[*] Inicializando submódulos del sistema...
-[✓] Backend Core Engine....... [ ONLINE ]
-[✓] Multi-tenant Architecture. [ ACTIVO ]
-[✓] Web Scraping Daemons...... [ EJECUTANDO ]
-[✓] PostgreSQL / Redis Streams [ CONECTADO ]
-[✓] Docker Containers......... [ UP & RUNNING ]
-```
-
-<br/>
-
-<!-- ABOUT ME TERMINAL ANIMATION -->
-## `About Me`
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/aboutMe.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/aboutMe.gif" />
-    <img alt="System Profile Run" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/aboutMe.gif" width="100%" />
-  </picture> 
 </div>
 
 <br/>
 
-<!-- SKILLS -->
-## `root@an7h0ny1:~# ls -la /usr/local/skills/`
+---
+
+## 👨‍💻 Sobre mí
+
+Soy **Anthony Danilo Parra**, Ingeniero de Sistemas especializado en **desarrollo backend** con enfoque en arquitecturas escalables, integración de datos en tiempo real y sistemas multi-tenant. Actualmente construyendo soluciones de alta concurrencia desde **Nariño, Colombia 🇨🇴**.
+
+- 🔧 Especialista en **Spring Boot**, **NestJS** y **TypeScript**
+- 🏗️ Experiencia en **arquitecturas multi-tenant** y diseño de APIs REST
+- 🕷️ **Web Scraping de alto rendimiento** en entornos financieros (TIER-1)
+- 🚀 Apasionado por **CI/CD**, contenedores y automatización de pipelines
+- 📬 Contacto: [antho7294@gmail.com](mailto:antho7294@gmail.com)
+
+<br/>
+
+---
+
+## 🛠️ Stack Tecnológico
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>⚙️ LENGUAJES & FRAMEWORKS</b></td>
-      <td align="center"><b>🗄️ BASES DE DATOS & INFRA</b></td>
-      <td align="center"><b>🔧 HERRAMIENTAS DEL SISTEMA</b></td>
+      <td align="center"><b>⚙️ Lenguajes & Frameworks</b></td>
+      <td align="center"><b>🗄️ Bases de Datos & Infra</b></td>
+      <td align="center"><b>🔧 Herramientas</b></td>
     </tr>
     <tr>
       <td align="center">
@@ -88,8 +77,8 @@ root@an7h0ny1:~# ./init_system.sh
         <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=github-actions&logoColor=22C55E" />
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/Linux_Kernel-000000?style=for-the-badge&logo=linux&logoColor=22C55E" /><br>
-        <img src="https://img.shields.io/badge/Git_VCS-000000?style=for-the-badge&logo=git&logoColor=22C55E" /><br>
+        <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=22C55E" /><br>
+        <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=22C55E" /><br>
         <img src="https://img.shields.io/badge/Postman-000000?style=for-the-badge&logo=postman&logoColor=22C55E" /><br>
         <img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=22C55E" /><br>
         <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=22C55E" />
@@ -100,21 +89,34 @@ root@an7h0ny1:~# ./init_system.sh
 
 <br/>
 
-<!-- MISSION LOG TERMINAL ANIMATION -->
-## `root@an7h0ny1:~# tail -f /var/log/mission_history.log`
+---
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission.gif" />
-    <img alt="Mission Logs Run" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/mission_log.gif" width="100%" />
-  </picture> 
-</div>
+## 🚀 Proyectos Destacados
+
+### 🏦 IUPI — Fintech Startup
+> **NestJS • PostgreSQL • WebSockets • Web Scraping**
+
+Motor de scraping de activos financieros en tiempo real (TIER-1), streaming de datos vía WebSockets con latencia sub-100ms y optimización de queries para alta concurrencia.
+
+---
+
+### 📦 No Country — SaaS de Inventarios
+> **Spring Boot • PostgreSQL JSONB • Arquitectura Multi-tenant**
+
+Arquitectura multi-tenant aislada y escalable con soporte a schemas dinámicos mediante JSONB. API REST con nivel de seguridad alto por tenant.
+
+---
+
+### 🏥 VetCare — Sector Salud
+> **Spring Boot • Docker • CI/CD • GitHub Actions**
+
+Digitalización de historias clínicas veterinarias. Pipeline CI/CD optimizado con reducción del 40% en tiempo de deploy y orquestación automatizada de contenedores en producción.
 
 <br/>
 
-<!-- GITHUB STATS -->
-## `root@an7h0ny1:~# ./sys_monitor.sh --metrics=github --theme=matrix`
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats-ruddy-six-82.vercel.app/api?username=An7h0ny1&theme=chartreuse-dark&show_icons=true&hide_border=true&bg_color=000000&title_color=22C55E&icon_color=22C55E&text_color=22C55E&ring_color=22C55E" height="195px" />
@@ -127,8 +129,9 @@ root@an7h0ny1:~# ./init_system.sh
 
 <br/>
 
-<!-- ACTIVITY GRAPH -->
-## `root@an7h0ny1:~# htop -u An7h0ny1 --view=activity`
+---
+
+## 📈 Actividad
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=An7h0ny1&bg_color=000000&color=22C55E&line=22C55E&point=22C55E&area=true&area_color=001a00&hide_border=true" width="100%" />
@@ -136,41 +139,19 @@ root@an7h0ny1:~# ./init_system.sh
 
 <br/>
 
-<!-- SNAKE ANIMATION -->
-## `root@an7h0ny1:~# systemctl status github-snake.service`
+---
+
+## 🐍 Contribuciones
 
 <div align="center">
-<!-- Se ha descomentado la animación del Snake Activa -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/github-contribution-grid-snake.svg" />
-</picture> 
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 <br/>
-
-<!-- CONTACT INVITATION -->
-## `root@an7h0ny1:~# netstat -anp | grep 'ESTABLISHED' | grep 'CONTACT'`
-
-```bash
-tcp        0      0 127.0.0.1:443       LINKEDIN_NODE    ESTABLISHED  [ENCRYPTED]
-tcp        0      0 127.0.0.1:587       GMAIL_NODE       ESTABLISHED  [SECURE_TUNNEL]
-tcp        0      0 127.0.0.1:22        GITHUB_NODE      ESTABLISHED  [SSH_AUTH]
-```
-
-
-<br/>
-
-```bash
-╔══════════════════════════════════════════════════════════╗
-║  "The Matrix is everywhere. It is all around us..."      ║
-║   — Morpheus                                             ║
-║                                                          ║
-║  "No me gusta la idea de no tener el control de mi vida" ║
-║   — Neo (y Anthony también)                              ║
-╚══════════════════════════════════════════════════════════╝
-```
 
 <!-- FOOTER -->
 <div align="center">
