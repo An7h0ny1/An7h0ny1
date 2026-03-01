@@ -19,10 +19,15 @@
 <br/>
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=22C55E&labelColor=000000)](https://linkedin.com/in/anthony-se)
-[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=22C55E)](mailto:antho7294@gmail.com)
-
+  <a href="https://linkedin.com/in/anthony-se">
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=22C55E" />
+  </a>
+  <a href="mailto:antho7294@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=22C55E" />
+  </a>
+  <a href="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/main/CV_Anthony_Parra.pdf">
+    <img src="https://img.shields.io/badge/CV-000000?style=for-the-badge&logo=readme&logoColor=22C55E" />
+  </a>
 </div>
 <br/>
 
@@ -45,7 +50,7 @@ root@an7h0ny1:~# ./init_system.sh
 <br/>
 
 <!-- ABOUT ME TERMINAL ANIMATION -->
-## `root@an7h0ny1:~# cat /var/www/about_me.config.json`
+## `About Me`
 
 <div align="center">
   <picture>
