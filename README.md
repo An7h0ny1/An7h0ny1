@@ -41,9 +41,9 @@ root@an7h0ny1:~# ./init_system.sh
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/about_me.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/about_me.gif" />
-    <img alt="System Profile Run" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/about_me.gif" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/aboutMe.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/aboutMe.gif" />
+    <img alt="System Profile Run" src="https://raw.githubusercontent.com/An7h0ny1/An7h0ny1/output/dist/aboutMe.gif" width="100%" />
   </picture> 
 </div>
 
