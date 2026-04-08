@@ -20,9 +20,6 @@
 
 <!-- BOTONES -->
 <div align="center">
-  <a href="https://anthony-parra-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐_Portafolio-000000?style=for-the-badge&logoColor=22C55E" />
-  </a>
   <a href="https://anthony-parra-portfolio.vercel.app/cv.pdf">
     <img src="https://img.shields.io/badge/📄_CV-000000?style=for-the-badge&logoColor=22C55E" />
   </a>
