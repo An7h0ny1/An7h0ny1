@@ -7,6 +7,6 @@ Tecnologías principales: Java 17+, Spring Boot 3.x, PostgreSQL, Docker, Git/Git
 ---
 
 #### Proyecto principal
-- **[payment-registry-api](https://github.com/An7h0ny1/payment-registry-api):** Servicio REST de registro de pagos multi-moneda, construido como prueba de dominio de backend. Incluye validación de reglas de negocio, testing unitario y despliegue con Docker.
+- **[payment-registry-api](https://github.com/An7h0ny1/payment-registry-api):** Servicio REST de registro de pagos multi-moneda, construido como prueba de dominio de backend. Incluye validación de reglas de negocio, testing unitario y despliegue con Docker.(Desarrollo Activo)
 
 Encuéntrame en [LinkedIn](https://linkedin.com/in/anthony-se).
