@@ -15,4 +15,4 @@ Ecosistema de clasificación de tickets de soporte diseñado bajo patrones de re
 
 ---
 
-Encuéntrame en [LinkedIn](https://linkedin.com/in/anthony-se) | [GitHub](https://github.com/An7h0ny1)
+Encuéntrame en [LinkedIn](https://linkedin.com/in/anthony-se) 
