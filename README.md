@@ -6,7 +6,7 @@ Ingeniero de Sistemas experiencia práctica en desarrollo backend en Java y Spri
 
 ---
 
-#### 🛡️ Proyecto Destacado: Failsafe AI
+#### 🛡️ Proyecto Destacado: [Failsafe AI](https://github.com/An7h0ny1/Failsafe-AI-API)
 Ecosistema de clasificación de tickets de soporte diseñado bajo patrones de resiliencia total, seguridad semántica y observabilidad financiera en tiempo real.
 
 * **Arquitectura Defensiva y Resiliencia (Resilience4j):** Implementación de disyuntores en cascada (*Cascading Failover*). Si la línea principal (Groq / Llama 3.3) falla o se abre su Circuit Breaker, el flujo conmuta dinámicamente a Gemini; ante una caída total de red externa, el sistema degrada con éxito hacia un modelo de emergencia local (**AllMiniLM-L6-v2**) en la JVM.
