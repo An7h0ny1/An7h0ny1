@@ -1,12 +1,8 @@
-### Anthony Parra | Backend Developer (Java / Spring Boot)
+### Anthony Parra | Backend Developer (Java)
 
-Ingeniero de Sistemas. Construyo APIs REST y servicios backend enfocados en resolver problemas de negocio, con principios de código limpio y testing. Actualmente profundizando en arquitecturas de microservicios y despliegues containerizados con Docker.
+Ingeniero de Sistemas enfocado en APIs REST resilientes y tolerantes a fallos.
 
-Tecnologías principales: Java 17+, Spring Boot 3.x, PostgreSQL, Docker, Git/GitHub.
+* **Stack:** Java 21, Spring Boot 3, PostgreSQL, Resilience4j, Docker.
+* **Proyecto Destacado - [Failsafe AI](https://github.com/An7h0ny1/failsafe-api):** API de clasificación de tickets con seguridad semántica local (BERT/ONNX), resiliencia en cascada (Groq → Gemini → Local Fallback) y auditoría de costos.
 
----
-
-#### Proyecto principal
-- **[payment-registry-api](https://github.com/An7h0ny1/payment-registry-api):** Servicio REST de registro de pagos multi-moneda, construido como prueba de dominio de backend. Incluye validación de reglas de negocio, testing unitario y despliegue con Docker.(Desarrollo Activo)
-
-Encuéntrame en [LinkedIn](https://linkedin.com/in/anthony-se).
+[LinkedIn](https://linkedin.com/in/anthony-se) |
